@@ -1,0 +1,662 @@
+@media  screen and (max-width: 370px) {
+   
+    /* here are that elements that we want to display and dispaly none here in mobile responsive */
+  .white{
+    background-color: rgba(255, 255, 255, 0.262) !important;
+ 
+    z-index: 0 !important;
+     
+  }
+  .Circle{
+    display: none !important;
+}
+  .navbar-brand22{
+    display: none !important;
+  }
+  .facebook-text{
+    display: block;
+    font-size: 2rem;
+    color: #0877df;
+    font-family: 'Oswald', sans-serif;
+  }
+  .nav-2box{
+    display: none !important;
+  }
+  .nav-3box{
+    display: none !important;
+  }
+
+
+
+   
+    .select-3 {
+      display: flex !important;
+      margin-top: 1rem;
+      margin-right: 1rem !important;
+      position: relative;
+      width: 100%;
+     
+  }
+   .nav-1box{
+    margin-left: -2rem;
+   }
+   
+ 
+  span.line-1{
+    border-bottom: solid 3px #1b74e4;
+    top: 2rem;
+    width: 60px !important;
+     
+    margin-left: -13px !important;
+    position: absolute;
+  
+    }
+    .svg-icon-3{
+      padding-left: 33px;
+     }
+     
+ 
+ 
+  .barhere{
+    width: 1.6em !important;
+    margin-left: -0.5rem;
+  }
+ 
+   
+  .whole-box{
+    display: none;
+  }
+   
+  .res-mobile{
+    display: block !important;
+    margin-top: 5rem !important;
+  }
+  .first-secres{
+    margin-top: -3.5rem;
+  }
+  .search-btn{
+    color: black;
+    display: inline-block;
+ 
+    box-shadow: 0 0 2px #888;
+    background-color: rgba(207, 207, 207, 0.479);
+    margin-left: 13rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 50%;
+  
+ }
+ .heading-res1{
+  font-size: 1.9rem;
+  font-weight: bolder;
+  margin-left: 15px !important;
+  display: flex;
+  margin-top: 30px;
+ }
+ .search-con{
+  margin-top: -2.6rem;
+  margin-left: 6rem;
+ }
+  
+
+
+
+
+
+
+
+.friend-btn {
+	background-color:#a4a4a441;
+	border-radius:42px;
+	border:1px solid #a4a4a441;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+ 
+}
+
+.friend-btn:active {
+	position:relative;
+	top:1px;
+}
+/* for 2nd button */
+.friend-btn-2 {
+	background-color:#a4a4a441;
+	border-radius:42px;
+	border:1px solid #a4a4a441;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+ 
+}
+
+.friend-btn-2:active {
+	position:relative;
+	top:1px;
+}
+
+/*  now second div starts */
+  .second-secres{
+   display: flex;
+  }
+  .heading-2fri{
+    
+  }
+  .heading-2res{
+    font-size: 1.5rem;
+    font-weight:  600;
+    margin-left: 15px !important;
+    display: flex;
+   
+  }
+  span.mark{
+    color: red;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-top: -4px;
+
+  }
+  .whole-ts{
+    position: relative;
+  }
+  /* here is next */
+  .third-secres{
+    margin-top: 0.8rem;
+  }
+  .link-res2{
+    margin-left: 5.2rem;
+    font-size: 1.3rem;
+  }
+  .link-ressub{
+    text-decoration: none;
+  }
+  .fri-card{
+    display: flex;
+  }
+  .fri-cardimg{
+    margin-left: 10px;
+  }
+  .img-fri1{
+    border-radius: 50%;
+    width: 6rem;
+  }
+  .m-infoimg1{
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    
+    border: white 3px solid;
+    
+  }
+  .more-info{
+    display: flex;
+    margin-left: -4px;
+  }
+  .m-infoimg{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 1.4rem;
+  }
+  .more-infotext{
+    margin-left: 8px;
+    margin-top: 5px;
+
+  }
+  .text-info{
+    color: gray !important;
+  }
+  .fri-card2{
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+  }
+  .heading-fricard{
+    font-size: 1.2rem;
+    font-weight: 400;
+
+  }
+  .buttons-confri{
+   
+  }
+
+  .fri-cardbtn {
+ 
+    
+    background-color:rgba(38, 75, 223, 0.841);
+    border-radius:6px;
+    border:1px solid rgba(38, 75, 223, 0.841);
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 23px;
+    text-decoration:none;
+   
+  }
+
+  .fri-cardbtn:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .fri-cardbtn-2 {
+ 
+    
+    background-color: #a4a4a473;
+    border-radius:6px;
+    border:1px solid #a4a4a473;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 26px;
+    text-decoration:none;
+   
+  }
+
+  .fri-cardbtn-2:active {
+    position:relative;
+    top:1px;
+  }
+  
+   .last-btn1{
+      margin-top: 1.2rem;
+      text-align:center;
+   }
+
+  .last-btn {
+ 
+    
+    background-color: #a4a4a473;
+    border-radius:6px;
+    border:1px solid #a4a4a473;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-size: 1rem;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:8px 150px;
+    text-decoration:none;
+   
+  }
+
+  .last-btn:active {
+    position:relative;
+    top:1px;
+  }
+  
+
+
+}
+
+
+
+
+  
+@media  screen and (max-width:1440px) {
+  .res-mobile{
+    display: none;
+  }
+}
+@media screen  and (max-width: 1600px){
+  .res-mobile{
+    display: none;
+  }
+  
+ .buttons-con{
+   
+  margin-left: 1rem !important;
+
+  margin-top: 1rem;
+  padding-bottom: 10px;
+ }
+}
+
+
+
+
+
+
+
+
+/* here is for iphone */
+@media  screen and (max-width: 390px) {
+   
+  /* here are that elements that we want to display and dispaly none here in mobile responsive */
+.white{
+  background-color: rgba(255, 255, 255, 0.262) !important;
+
+  z-index: 0 !important;
+   
+}
+.Circle{
+  display: none !important;
+}
+.navbar-brand22{
+  display: none !important;
+}
+.facebook-text{
+  display: block;
+  font-size: 2rem;
+  color: #0877df;
+  font-family: 'Oswald', sans-serif;
+}
+.nav-2box{
+  display: none !important;
+}
+.nav-3box{
+  display: none !important;
+}
+
+
+
+ 
+  .select-3 {
+    display: flex !important;
+    margin-top: 1rem;
+    margin-right: 1rem !important;
+    position: relative;
+    width: 100%;
+   
+}
+ .nav-1box{
+  margin-left: -2rem;
+ }
+ 
+
+span.line-1{
+  border-bottom: solid 3px #1b74e4;
+  top: 2rem;
+  width: 60px !important;
+   
+  margin-left: -13px !important;
+  position: absolute;
+
+  }
+  .svg-icon-3{
+    padding-left: 33px;
+   }
+   
+
+
+.barhere{
+  width: 1.6em !important;
+  margin-left: -0.5rem;
+}
+
+ 
+.whole-box{
+  display: none;
+}
+ 
+.res-mobile{
+  display: block !important;
+  margin-top: 5rem !important;
+}
+.first-secres{
+  margin-top: -3.5rem;
+}
+.search-btn{
+  color: black;
+  display: inline-block;
+
+  box-shadow: 0 0 2px #888;
+  background-color: rgba(207, 207, 207, 0.479);
+  margin-left: 13rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+
+}
+.heading-res1{
+font-size: 1.9rem;
+font-weight: bolder;
+margin-left: 15px !important;
+display: flex;
+margin-top: 30px;
+}
+.search-con{
+margin-top: -2.6rem;
+margin-left: 6rem;
+}
+
+
+
+
+
+
+
+
+.friend-btn {
+background-color:#a4a4a441;
+border-radius:42px;
+border:1px solid #a4a4a441;
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font-family:Arial;
+font-size:16px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+
+}
+
+.friend-btn:active {
+position:relative;
+top:1px;
+}
+/* for 2nd button */
+.friend-btn-2 {
+background-color:#a4a4a441;
+border-radius:42px;
+border:1px solid #a4a4a441;
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font-family:Arial;
+font-size:16px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+
+}
+
+.friend-btn-2:active {
+position:relative;
+top:1px;
+}
+
+/*  now second div starts */
+.second-secres{
+ display: flex;
+}
+.heading-2fri{
+  
+}
+.heading-2res{
+  font-size: 1.5rem;
+  font-weight:  600;
+  margin-left: 15px !important;
+  display: flex;
+ 
+}
+span.mark{
+  color: red;
+  background-color: inherit;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-top: -4px;
+
+}
+.whole-ts{
+  position: relative;
+}
+/* here is next */
+.third-secres{
+  margin-top: 0.8rem;
+}
+.link-res2{
+  margin-left: 5.2rem;
+  font-size: 1.3rem;
+}
+.link-ressub{
+  text-decoration: none;
+}
+.fri-card{
+  display: flex;
+}
+.fri-cardimg{
+  margin-left: 10px;
+}
+.img-fri1{
+  border-radius: 50%;
+  width: 6rem;
+}
+.m-infoimg1{
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  
+  border: white 3px solid;
+  
+}
+.more-info{
+  display: flex;
+  margin-left: -4px;
+}
+.m-infoimg{
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 1.4rem;
+}
+.more-infotext{
+  margin-left: 8px;
+  margin-top: 5px;
+
+}
+.text-info{
+  color: gray !important;
+}
+.fri-card2{
+  margin-left: 0.6rem;
+  margin-top: 0.5rem;
+}
+.heading-fricard{
+  font-size: 1.2rem;
+  font-weight: 400;
+
+}
+.buttons-confri{
+ 
+}
+
+.fri-cardbtn {
+
+  
+  background-color:rgba(38, 75, 223, 0.841);
+  border-radius:6px;
+  border:1px solid rgba(38, 75, 223, 0.841);
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 23px;
+  text-decoration:none;
+ 
+}
+
+.fri-cardbtn:active {
+  position:relative;
+  top:1px;
+}
+
+.fri-cardbtn-2 {
+
+  
+  background-color: #a4a4a473;
+  border-radius:6px;
+  border:1px solid #a4a4a473;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 26px;
+  text-decoration:none;
+ 
+}
+
+.fri-cardbtn-2:active {
+  position:relative;
+  top:1px;
+}
+
+ .last-btn1{
+    margin-top: 1.2rem;
+    text-align:center;
+ }
+
+.last-btn {
+
+  
+  background-color: #a4a4a473;
+  border-radius:6px;
+  border:1px solid #a4a4a473;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-size: 1rem;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 150px;
+  text-decoration:none;
+ 
+}
+
+.last-btn:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+}
+
+
+
+@media  (max-width: 1600px) {
+  .res-mobile{
+   display: none !important;
+  }
+}
+@media  (max-width: 1500px) {
+  .res-mobile{
+display: none !important;
+  }
+}
+@media  (max-width: 1400px) {
+  .res-mobile{
+display: none !important;
+  }
+}

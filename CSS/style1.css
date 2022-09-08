@@ -1,0 +1,2474 @@
+body{
+    background-color: #f0f2f5;
+  }
+ 
+  html,body
+  {
+ 
+     
+      font-size: 16px;
+     
+  }
+
+  /* .fixed{
+    position: fixed;
+    z-index: 3000!important;
+  } */
+
+
+  /* the ones we don't want to appear */
+ 
+  .box-min{
+    display: none !important;
+   }
+  .select-3{
+    display: none !important;
+  }
+  .box-res-2{
+      display: none !important;
+  }
+  .box-sectionbar{
+      display: none;
+  }
+  .mobile-bar{
+      display: none;
+  }
+/* nav bar styles */
+
+    .white{
+        background-color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-bottom: 0.3rem;
+        position:fixed;
+        z-index: 100000000;
+    
+    }
+
+ 
+    /*  */
+    /*  */
+    /* nav bar 1 box */
+    .nav-1box{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+      .navbar-brand22 {
+        
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+         
+       }
+
+     .blue-1::before{
+        padding-right: 12px;
+        padding-top: 2px;
+        font-size: 41px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#25b6eb), to(#1b4aa7));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: initial; /* reset Font Awesome's display:inline-block */ 
+      }
+
+      .facebook-text{
+          display: none;
+      }
+
+      .Circle {
+        background-color:#f0f2f5;
+        border-radius:28px !important;
+        border:1px solid #ecffee;
+        display:inline-block;
+        cursor:pointer;
+        
+        font-family:Arial;
+        font-size:17px;
+       
+        text-decoration:none;
+        text-shadow:0px 1px 0px #313130;
+        margin-left: 3rem;
+        margin-top: -2.5rem;
+        width: 16rem;
+        font-family: 'Overpass', sans-serif !important;
+        color: #050505;
+        letter-spacing: 2px;
+        font-size: 16px;
+      }
+      .circle-2{
+        border: none;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    .Circle:hover {
+        /* background-color:#858585; */
+      }
+
+    .Circle:active {
+        position:relative;
+        top:1px;
+      }
+
+
+     /*  */
+     /*  */
+    /* second box of nav bar is start */
+    
+      .nav-2box{
+          width: 300px;
+          justify-content: center;
+          display: flex;
+          margin-left: -9rem;
+          margin-top: 13px;
+
+      }
+
+      .nav-list{
+      
+        flex-grow: 1;
+        justify-content: center;
+        padding-left: 5.5rem;
+      }
+  
+      span.line{
+        border-bottom: solid 3px #1b74e4;
+        top: 2.4rem;
+        width: 100px !important;
+        position: absolute;
+        margin-left: -32px !important;
+        margin-top: 13px;
+      }
+ 
+      .blue{
+        fill: #1b74e4;
+      }
+
+      /*  */
+      /*  */
+      /* here is nav box -3 start */
+
+      .nav-3box{
+         width: 300px;
+         display: flex;
+         justify-content: center;
+         margin-top: 10px;
+         margin-right: 1.8rem;
+     }
+
+     .nav-list1{
+         
+        justify-content: center;
+        padding-left: 8px;
+     }
+     .navlist-btn {
+      background-color:transparent;
+      border-radius:28px;
+      border:1px solid transparent;
+      display:inline-block;
+      cursor:pointer;
+      color:#000000;
+      font-family:Arial;
+      font-size:17px;
+      padding:2px 8px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px transparent;
+      display: flex;
+    }
+    .navlist-btn:hover {
+      background-color:#d8d8d843;
+    }
+    .navlist-btn:active {
+      position:relative;
+      top:1px;
+    }
+    .navlist-btntext{
+      margin-top: 7.5px;
+      margin-left: 2px;
+      font-size: 13px;
+      color: rgb(48, 48, 48);
+      font-weight: bold;
+    } 
+     .imp-brain{
+       margin-top: 2px;
+       width: 28px !important;
+       height: 28px !important;
+       border-radius: 50%;
+       margin-right: 4px;
+     }
+   
+     .style-2{
+        color: black;
+        display: inline-block;
+       border-radius: 65px;
+       box-shadow: 0 0 2px #888;
+       background-color: rgba(207, 207, 207, 0.479);
+       padding: 6px 8px;
+    }
+   
+    .svg-icon-2:hover{
+        background-color: rgba(189, 189, 189, 0.733);
+    }
+   
+    .style-2:hover{
+         color: black;
+    }
+
+    /* here nav bar is end */
+    /* ///////////////////////// */
+    /*//////////////////////////////  */
+
+
+   .sub-list{
+      
+   }
+
+
+
+    .wholebox{
+     
+      padding-top: 4.5rem;
+      position: relative;
+    }
+     .sub-wholebox{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+    
+    
+     }
+    .wholebox-1{
+        width: 300px;
+      position: relative;
+      
+     
+      
+    }
+    .wholebox-3{
+      width: 360px;
+      display: flex;
+      flex-flow: column;
+      position: relative;
+    }
+
+  
+    .sub-wholebox-1{
+      margin: 13px;
+      margin-top: 0 !important;
+      position: fixed;
+      left: 0;
+      z-index: 1000000;
+ 
+    }
+    .sub-wholebox-3{
+      width: 100%;
+      position: fixed;
+  
+    }
+     .side-barcon{
+      width: 360px !important;
+      height: 250px !important;
+     }
+
+
+     .side-bar{
+       list-style: none;
+     
+
+       
+     }
+
+
+    #li-hov:hover {
+ 
+        display: inline-block;
+       border-radius: 10px;
+       box-shadow: 0 0 1px #888;
+       background-color: rgba(207, 207, 207, 0.479);
+       width: 100% !important;
+      }
+
+
+      .brain-1{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        
+    }
+    span.text{
+         margin-left: 8px;
+    }
+
+    .button{
+     margin-left: 2px;
+    
+    }
+   
+
+    .style-3{
+        color: black;
+        display: inline-block;
+       border-radius: 65px;
+       box-shadow: 0 0 2px #888;
+       background-color: rgba(207, 207, 207, 0.479);
+       padding: 0.5em 0.6em;
+        
+       margin-right: 8px;
+     }
+
+     .styles-ul{
+        overflow-y: auto;
+        max-height: 350px;
+    }
+
+    .second-list{
+        margin-left: 10px;
+    }
+
+    span.text-2{
+
+        font-size: 1rem;
+        margin-left: 10px;
+        /* margin-top: 1rem !important; */
+        /* position: absolute; */
+        padding-top: 0 !important;
+        /* margin-top: 29px !important; */
+        margin-top: 0;
+        
+    }
+
+    .li-hov{
+        margin-top: 25px;
+        text-decoration: none !important;
+        list-style: none;
+    }
+
+    
+  .li-hov:hover{
+    border-radius: 10px;
+    background-color: rgba(207, 207, 207, 0.479); 
+     margin: 10px 0;
+     padding: 10px 0;
+  
+   }
+
+
+   a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.text-b2{
+ margin-left: 0.5rem;
+}
+.text-b1{
+ margin-left: 5px;
+ color: #666666;
+ font-family: Arial;
+ font-weight: bold;
+ font-size: 0.9rem;
+
+}
+.text-b3{
+  margin-left: 5px;
+}
+ 
+/*/////////////////////////////////  */
+/*/////////////////////////////  */
+/* first section of the second box is end here */
+
+
+.wholebox-2{
+ width: 580px;
+
+}
+@media (max-width: 1500px) {
+  .wholebox-2{
+    margin-left: -3rem;
+  }
+}
+@media (max-width: 1400px) {
+  .wholebox-2{
+    margin-left: -6rem;
+  }
+}
+
+
+ .storysection{
+  display: flex;
+ 
+width: 100%;
+  
+ 
+ }
+ .sub-storysection{
+   
+ }
+
+.card-1{
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: 100%;
+    height: 200px !important;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+   
+
+  .border-cardbrain{ 
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+	 
+}
+
+
+.story-icon-box{
+	width: 4rem;
+    height: 4rem;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -11px;
+    left: 1.75rem;
+}
+
+.story-icon-background{
+	width: 2.5rem;
+    height: 2.5rem;
+    background-color: #2e89ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: 12px;
+    top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.story-iconplus{
+	fill: white;
+    position: absolute;
+    left: 0.7rem;
+}
+
+.story-icontext{
+	font-size: 1rem;
+    color: #626262;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    width: 50rem;
+    left: 0.9rem;
+    top: 9.9rem;
+}
+
+/* card -2 of second section */
+.card-2 {
+    left: 0.5rem;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: 100%;
+    height: 200px !important;
+    background-color: #242526;
+    position: relative;}
+
+    .story-smallicon {
+        z-index: 10;
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        border: 3px solid #2e89ff;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        overflow: hidden;
+        align-items: center;
+        margin-top: 0.8rem;
+        margin-left: 0.9rem;
+    }
+
+
+    .story-smallimg{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .story-bigimg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transition: all .2s linear;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+    }
+
+    .story-bigimg:hover{
+        -webkit-transition: all .2s linear;
+        -webkit-transform: scale(1.2);
+    }
+
+    .story-bigimgbc{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transition: all .2s linear;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+    
+    }
+    .story-imgtext {
+      font-size: 16px;
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      position: absolute;
+      width: 50rem;
+      left: 0.7rem;
+      top: 9.5rem;
+    }
+     
+    
+        /*Card -3  */
+
+        .card-3{
+          left: 0.9rem;
+          overflow: hidden;
+          border-radius: 10px;
+          -webkit-border-radius: 15px;
+          -moz-border-radius: 14px;
+          -ms-border-radius: 14px;
+          -o-border-radius: 14px;
+          width: 100%;
+          height: 200px !important;
+          background-color: #242526;
+          position: relative;
+          
+          }
+
+
+          /* card 4 */
+
+          .card-4{
+            left: 1.3rem;
+            overflow: hidden;
+            border-radius: 10px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 14px;
+            -ms-border-radius: 14px;
+            -o-border-radius: 14px;
+            width: 100%;
+            height: 200px !important;
+            background-color: #242526;
+            position: relative;
+          }
+    
+           .card-5{
+            left: 1.7rem;
+            overflow: hidden;
+            border-radius: 10px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 14px;
+            -ms-border-radius: 14px;
+            -o-border-radius: 14px;
+            width: 100%;
+            height: 200px !important;
+            background-color: #242526;
+            position: relative;
+           }
+ 
+        
+          .gray-circle{
+            z-index: 10;
+            position: absolute;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            border: 1px black solid;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            overflow: hidden;
+            margin-top: 1rem;
+            margin-left: 1rem; 
+            background-color: rgba(93, 93, 93, 0.171);
+          }
+        
+        
+          .arrow-icon{
+              background-color: white;
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              margin-top: 5rem;
+              margin-left: 36.8rem;
+              position:absolute;
+             
+          }
+          .arrow-line{
+              margin-left: 12px;
+              margin-top: 13px;
+          }
+
+          /* so here second part of whole box is finished */
+
+          /* next third box is here */
+        
+               .about-box{
+                width: 100%;
+        
+              } 
+              .sub-about-box{
+           
+              }
+
+.box-3con{
+width: 100%;
+ 
+}
+          .box-3{
+            margin-top: 1.5rem;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            
+            width: 38rem;
+            top: 20rem;
+            box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+          }
+.box-4con{
+width: 100% !important;
+}               
+        .box-4{
+          margin-top: 1.5rem;
+          background-color: rgb(255, 255, 255);
+          /* border: solid 1rem rgb(255, 255, 255); */
+          border-radius: 10px;
+          padding: 1rem;
+          
+        width: 38rem;
+         padding-top: 1.5rem;
+          box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+          display: flex;
+
+       }
+          .brain{
+            width: 40px;
+            height: 40px;
+            margin-right: 6px;
+            border-radius: 50%;
+        }
+        .box-t{
+            margin-left: -12.5rem;
+        }
+        .box-1list, .box-2list , .box-3list{
+           
+            padding-left: 20px;
+            padding-right: 20px;
+            
+        }
+        .box-1list{
+          margin-top: 0.45rem;
+        }
+        .person-top{
+            position: absolute;
+       
+            /* left: 14.7rem; */
+      
+        }
+      
+        span.text-2{
+
+            font-size: 1rem;
+            margin-left: 10px;
+            /* margin-top: 1rem !important; */
+            /* position: absolute; */
+            padding-top: 0 !important;
+            /* margin-top: 29px !important; */
+            margin-top: 0;
+            
+        }
+
+        .img-text{
+           
+          width: 100%;
+          text-align: center;
+          padding-left: 2rem;
+          display: flex;
+          justify-content: space-between;
+
+        }
+
+        .box-list{
+  
+          display: flex;
+          
+        }
+        .camera{
+            width: 39px;
+            height: 39px;
+            margin-top: -4px;
+           }
+         
+           .myButton {
+            box-shadow:inset 0px 1px 0px 0px #ffffff;
+          
+            background:linear-gradient(to bottom, #fafafab7 5%, #fafafab7 100%);
+            border-radius:42px;
+            border:1px solid #dcdcdc;
+            display:inline-block;
+            cursor:pointer;
+            color:#666666;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:8px 240px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #ffffff;
+        }
+        .myButton:hover {
+          background:linear-gradient(to bottom, #fafafab7 5%, #fafafab7 100%);
+            background-color:#f6f6f6;
+            color:#666666;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+
+        .whats{
+          padding-top: 10px !important;
+          padding-left: 12px !important;
+        }
+
+        /*  */
+
+    
+
+       .all-in{
+        border: 2px solid rgba(119, 153, 167, 0.493);
+        border-radius: 50px;
+        padding: 10px;
+        color: rgb(4, 99, 224);
+        font-weight: bold;
+        margin-top: 4rem !important;
+         
+    }
+    
+    .all-in:hover{
+        background-color: rgba(207, 207, 207, 0.479);
+    }
+    .camera-text{
+        margin-left: -10px;
+    }
+    .create-btn{
+      margin-top: 6.5px;
+    }
+    .images-con{
+      display: flex;
+      justify-content: space-between;
+     
+    }
+    .man-1 ,.man-2{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 10px;
+       
+    }
+       .dot{
+          
+        height: 10px;
+        width: 10px;
+        background-color: #31a24c;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: -16px;
+        margin-top: 2.3rem;
+         
+       }
+       .dot-1{
+       
+        height: 10px;
+        width: 10px;
+        background-color: #31a24c;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: -12px;
+        margin-top: 2.1rem;
+       }
+      
+       .camera-1{
+        
+    width: 40px;
+    height: 40px;
+    margin-left: -0.8rem;
+    margin-top: -0.2rem;
+
+       }
+
+
+       /* now here is condtacts box which is second one  */
+
+       .second-box-4{
+        width: 600px;
+ 
+           }
+
+      
+
+       .contacts{
+ 
+        color: #888;
+        height: 22px !important;
+         
+  
+        
+    }
+ 
+    @media (max-width: 1500px){
+       .contacts{
+         left: 70rem;
+       }
+    }
+    @media (max-width: 1400px){
+      .contacts{
+        left: 66rem;
+      }
+   }
+    .contact-t{
+        font-size: 20px !important;
+        margin-left: 2rem;
+        
+    }
+     
+    .icon-con{
+        display: flex;
+        margin-left: 15rem;
+        margin-top: -1.8rem;
+   
+    }
+    @media (max-width: 1400px){
+      .icon-con{
+        left: 14rem;
+      }
+    }
+    .sub-icon-con{
+      display: flex;
+      padding-left: 10px;
+    }
+    .con-icon{
+      margin-left: 1rem;
+    }
+
+    .video{
+        width: 40px;
+        height: 40px;
+        margin-left: 18px;
+    }
+    
+    .search{
+    width: 20px;
+    height: 20px;
+        margin-left: 18px;
+        margin-top: 12px;
+    }
+    .dots-m2{
+    width: 30px;
+    height: 30px;
+        margin-left: 18px;
+        margin-top: 5.5px;
+    }
+
+
+
+    .contacts-list{
+        margin-top: 1rem !important;
+        position: relative;
+    }
+
+     .img{
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+     }
+   
+     
+    
+    .dot-co{
+           position: absolute;
+     height: 10px;
+     width: 10px;
+     background-color: #31a24c;
+     border-radius: 50%;
+     display: inline-block;
+     margin-left: -15px;
+
+      margin-top: 1.8rem;
+    }
+    
+    .dot-co-1{
+           position: absolute;
+     height: 10px;
+     width: 10px;
+     background-color: #31a24c;
+     border-radius: 50%;
+     display: inline-block;
+     margin-left: -15px;
+     margin-top: 1.8rem;
+    }
+    
+    .dot-co-2{
+           position: absolute;
+     height: 10px;
+     width: 10px;
+     background-color: #31a24c;
+     border-radius: 50%;
+     display: inline-block;
+     margin-left: -15px;
+     margin-top: 1.8rem;
+      
+    }
+    .dot-co-3{
+         position: absolute;
+   height: 10px;
+   width: 10px;
+   background-color: #31a24c;
+   border-radius: 50%;
+   display: inline-block;
+   margin-left: -15px;
+    margin-top: 1.8rem;
+  }
+  .dot-co-4{
+       position: absolute;
+ height: 10px;
+ width: 10px;
+ background-color: #31a24c;
+ border-radius: 50%;
+ display: inline-block;
+ margin-left: -15px;
+  margin-top: 1.8rem;
+}
+.list-cobox{
+   
+}
+  #list-cons{
+    list-style: none !important;
+  }
+ #list-cons:hover{
+   
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 1px #888;
+  background-color: rgba(207, 207, 207, 0.479);
+  width: 100% !important;
+ }
+    /* card section */
+    /*  ///////////////////////////*/
+    /* ///////////////////////// */
+    /* //////////////////////////// */
+
+    .cards-section{
+ 
+      margin-top: 2rem;
+    
+         
+    }
+
+    @media (max-width: 1500px){
+      .cards-section{
+        margin-left: 26rem;
+      }
+    }
+    @media (max-width: 1400px){
+      .cards-section{
+        margin-left: 23rem;
+      }
+    }
+    .card-margin{
+        
+        height: 672px !important;
+        width:610px !important;
+        border-radius: 0.8rem !important;
+        margin-bottom: 1rem;
+        padding-bottom: 2rem;
+        }
+   
+ 
+       .card-text{
+        color: rgb(24, 24, 24);
+       margin-top:0.9rem !important;
+       margin-bottom: 15px;
+       margin-left: 3.5rem;
+       margin-right: 10px !important;
+       padding-bottom: 10px;
+       font-size: 1.2rem !important; 
+    }
+    
+
+     hr.new{
+      border-top: 1px solid rgba(131, 131, 131, 0.67);
+      margin-top: 1px;
+      width: 100%;
+     }
+    .body-card{
+      margin-bottom: 10px !important;
+    }
+
+    .post-1ico{
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        left: 0.5rem;
+        top: 10px;
+        position: absolute;
+        }
+
+        
+        .card-img-top{
+            height: 80%;
+        }
+         
+       .card-body-1{
+         padding-left: 15px;
+         padding-right: 15px;
+         padding-top: 10px;
+            
+          
+       }
+
+   
+       .like{
+
+       }
+        .far-icon{
+            font-size: 1.3rem;
+            margin-left: 5rem;
+            color: rgb(140, 140, 140);
+           }
+           .far-text{
+            color: rgb(164, 163, 163);
+               font-weight: bold;
+           }
+           .far-text-1{
+            color: rgb(164, 163, 163);
+              font-weight: bold;
+           
+           }
+            .far-icon-1{
+              font-size: 1.2rem;
+              margin-left: 13rem !important;
+              color: rgb(164, 163, 163);
+             }
+             
+.content-box{
+  display: flex;
+}
+.content-boxtext{
+margin-top: -3px;
+margin-left: 8px;
+color: gray;
+}
+.content-boxtext2{
+   margin-left: 20rem;
+   color: gray;
+}
+ 
+
+.like{
+  
+  /* margin-left: 5rem !important;
+  margin-top: 1px; */
+}
+
+
+              
+
+ li{
+   list-style: none !important;
+ }
+
+
+ .reaction-box{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(75%) contrast(96%);
+ }
+
+ .reaction-li{
+  display: flex;
+  justify-content: space-between;
+  
+ 
+}
+.rec-li{
+
+    vertical-align:middle;
+}
+.rec-icon{
+  display:inline-block;
+  
+}
+.rec-text{
+  display:inline-block; 
+}
+
+
+ 
+ 
+
+  .card-margin , .card-margin-2 , .card-margin-3 , .card-margin-4{
+    height: 721px !important;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+
+
+/* here is just temparoroy */
+ 
+
+
+/* here are some extra */
+   
+    .happy-icon{
+        fill: #f7b928;
+       }
+
+
+       
+                       
+
+
+       
+    
+
+            
+    
+    
+    
+    
+    /* CRDS-SMALL */
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*//////////////////////////////////////////////  */
+    /*////////////////////////////////////////////////  */
+    /*///////////////////////////////////////  */
+    /*//////////////////////////////////////////  */
+    /*////////////////////////////////////////////////////  */
+    /* mobile responsvie here */
+
+
+ /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media  screen and (max-width: 370px) {
+   
+    /* here are that elements that we want to display and dispaly none here in mobile responsive */
+  .white{
+    background-color: rgba(255, 255, 255, 0.262) !important;
+ 
+    z-index: 0 !important;
+     
+  }
+  .Circle{
+    display: none !important;
+}
+  .navbar-brand22{
+    display: none !important;
+  }
+  .facebook-text{
+    display: block;
+    font-size: 2rem;
+    color: #0877df;
+    font-family: 'Oswald', sans-serif;
+  }
+  .nav-2box{
+    display: none !important;
+  }
+  .nav-3box{
+    display: none !important;
+  }
+  .mobile-bar{
+    display: block !important;
+    display: flex;
+    padding-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: 16.5rem;
+    padding-left: 10px;
+  }
+  .message-btn{
+    color: black;
+     display: inline-block;
+     border-radius: 65px;
+     box-shadow: 0 0 2px #888;
+     background-color: rgba(207, 207, 207, 0.479);
+     padding: 0.3em 0.5em;
+     margin-left: 10px;
+  }
+  .search-btn{
+     color: black;
+     display: inline-block;
+     border-radius: 65px;
+     box-shadow: 0 0 2px #888;
+     background-color: rgba(207, 207, 207, 0.479);
+     padding: 0.4em 0.6em;
+     
+   
+  }
+  .select-3{
+  display: flex !important;
+  margin-top: 4.4rem;
+  margin-left: -36rem;
+  border-bottom: solid 5px gray;
+  width: 100%;
+  
+   
+  }
+  span.line-1{
+    border-bottom: solid 3px #1b74e4;
+    top: 6.8rem;
+    width: 80px !important;
+    position: absolute;
+    margin-left: -24px !important;
+    position: absolute;
+  
+    }
+     
+  .blue{
+	fill: #1b74e4;
+   }
+   .catalog{
+    width: 1.6em !important;
+  }
+  .barhere{
+    width: 1.6em !important;
+    margin-left: -0.5rem;
+  }
+  .svg-icon-3{
+   padding-left: 33px;
+  }
+  .box-min{
+    display: flex !important;
+    width: 100vw !important;
+    margin-top: 1rem;
+   border-bottom: 5px solid gray;
+   border-width: 100%;
+   padding-bottom: 10px;
+
+   margin-left: -38rem;
+   margin-top: 7rem;
+   border-top: 2px solid rgb(206, 206, 206);
+   padding-top: 1rem;
+
+  }
+  .box-minsub{
+    display: flex !important;
+    margin-left: 5px;
+    padding-bottom: 10px;
+  }
+  .brain{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 10px;
+   
+  }
+  .photo-icon{
+    display: block;
+    margin-top: 10px;
+    margin-left: 14px;
+  }
+
+
+  #fixed{
+    position: relative;
+  }
+
+ 
+  .myButton {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color:#ffffff;
+    border-radius:42px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:8px 14px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color:#f6f6f6;
+    color:#666666;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+  .box-t{
+      margin-left: 0 !important;
+  }
+  .box-sectionbar{
+    background-color: rgba(205, 205, 205, 0.349) !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.822);
+    display: block !important;
+   
+}
+.btn{
+   
+    border-radius: 80px;
+    padding: 7px 20px;
+    border: solid 2px rgba(128, 128, 128, 0.767);
+    background-color: rgba(255, 255, 255, 0.952);
+    margin-left:10px !important;
+}
+
+.box-btn1{
+    width: 1.3em;
+    
+}
+.btn--1{
+    fill: red;
+    padding-right: 4px;
+}
+.btn--2{
+    fill: blue;
+    padding-right: 4px;
+}
+.btn--3{
+    fill: purple;
+    padding-right: 4px;
+}
+/* now here next row desingn */
+.box-res-2{
+    background-color: rgba(255, 255, 255, 0.952);
+    padding-top: 1rem;
+     padding-bottom: 0.5px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.box-res-2--ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+     margin-left: -1rem;
+    
+}
+.box-res2--list1{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.3rem;
+}
+span.line-2{
+    border-bottom: solid 3px #1b74e4;
+    top: 20.7rem;
+    width: 110px !important;
+    position: absolute;
+    margin-left: 5px !important;
+    position: absolute;
+
+  }
+  /* box-3 is not going to display */
+  .box-3{
+      display: none;
+  }
+  .second-box-1{
+      display: none !important;
+  }
+  .second-box-2{
+      margin-left: 0 !important;
+      width: 100%;
+      margin-top: -12rem;
+    
+  }
+ 
+
+
+  .story-icon-box{
+      left: 1.7rem;
+  }
+  .story-icontext{
+      left: 1.3rem;
+      font-size: 14px;
+      margin-top: 1px;
+  }
+  .arrow-icon{
+     display: none;
+  }
+  .wholebox-1{
+    display: none;
+  }
+  .wholebox-3{
+    display: none;
+  }
+  .wholebox-2{
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .card-5 {
+     display: none;
+  }
+  .card-4 {
+    display: none;
+  }
+    
+  .box-4con
+  {
+    display: none;
+  }
+  .cards-section{
+    margin-left: 3px !important;
+    width: 100%;
+  }
+  .card-margin , .card-margin-2 , .card-margin-3 , .card-margin-4{
+     width: 100% !important;
+  }
+  .card-1{
+    margin-left: 2px;
+  }
+  .card-2{
+   left: 0.2rem !important;
+  }
+  .card-3{
+   left: 0.4rem !important;
+  }
+  .card-body-1{
+    width: 100% !important;
+  }
+  .content-boxtext2{
+    margin-left: 1rem;
+    margin-top: -2px;
+  }
+  .list-3box{
+    display: none;
+  }
+  .wholebox{
+    padding-top: 1rem !important;
+  }
+}
+
+
+
+
+/* now here is for iphone */
+/* /////////////////// */
+/* /////////////////////////////// */
+
+
+
+/* now here is for iphone */
+/* /////////////////// */
+/* /////////////////////////////// */
+
+
+
+@media  screen and (max-width: 390px) {
+   
+  /* here are that elements that we want to display and dispaly none here in mobile responsive */
+.white{
+  background-color: rgba(255, 255, 255, 0.262) !important;
+
+  z-index: 0 !important;
+   
+}
+.Circle{
+  display: none !important;
+}
+.navbar-brand22{
+  display: none !important;
+}
+.facebook-text{
+  display: block;
+  font-size: 2rem;
+  color: #0877df;
+  font-family: 'Oswald', sans-serif;
+}
+.nav-2box{
+  display: none !important;
+}
+.nav-3box{
+  display: none !important;
+}
+.mobile-bar{
+  display: block !important;
+  display: flex;
+  padding-left: 10px;
+  position: absolute;
+  top: 10px;
+  left: 16.5rem;
+  padding-left: 10px;
+}
+.message-btn{
+  color: black;
+   display: inline-block;
+   border-radius: 65px;
+   box-shadow: 0 0 2px #888;
+   background-color: rgba(207, 207, 207, 0.479);
+   padding: 0.3em 0.5em;
+   margin-left: 10px;
+}
+.search-btn{
+   color: black;
+   display: inline-block;
+   border-radius: 65px;
+   box-shadow: 0 0 2px #888;
+   background-color: rgba(207, 207, 207, 0.479);
+   padding: 0.4em 0.6em;
+   
+ 
+}
+.select-3{
+display: flex !important;
+margin-top: 4.4rem;
+margin-left: -36rem;
+border-bottom: solid 5px gray;
+width: 100%;
+
+ 
+}
+span.line-1{
+  border-bottom: solid 3px #1b74e4;
+  top: 6.8rem;
+  width: 80px !important;
+  position: absolute;
+  margin-left: -24px !important;
+  position: absolute;
+
+  }
+   
+.blue{
+fill: #1b74e4;
+ }
+ .catalog{
+  width: 1.6em !important;
+}
+.barhere{
+  width: 1.6em !important;
+  margin-left: -0.5rem;
+}
+.svg-icon-3{
+ padding-left: 33px;
+}
+.box-min{
+  display: flex !important;
+  width: 100vw !important;
+  margin-top: 1rem;
+ border-bottom: 5px solid gray;
+ border-width: 100%;
+ padding-bottom: 10px;
+
+ margin-left: -38rem;
+ margin-top: 7rem;
+ border-top: 2px solid rgb(206, 206, 206);
+ padding-top: 1rem;
+
+}
+.box-minsub{
+  display: flex !important;
+  margin-left: 5px;
+  padding-bottom: 10px;
+}
+.brain{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 10px;
+ 
+}
+.photo-icon{
+  display: block;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+
+#fixed{
+  position: relative;
+}
+
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:42px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 14px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
+  color:#666666;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.box-t{
+    margin-left: 0 !important;
+}
+.box-sectionbar{
+  background-color: rgba(205, 205, 205, 0.349) !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  border-bottom: 10px solid rgba(128, 128, 128, 0.822);
+  display: block !important;
+ 
+}
+.btn{
+ 
+  border-radius: 80px;
+  padding: 7px 20px;
+  border: solid 2px rgba(128, 128, 128, 0.767);
+  background-color: rgba(255, 255, 255, 0.952);
+  margin-left:10px !important;
+}
+
+.box-btn1{
+  width: 1.3em;
+  
+}
+.btn--1{
+  fill: red;
+  padding-right: 4px;
+}
+.btn--2{
+  fill: blue;
+  padding-right: 4px;
+}
+.btn--3{
+  fill: purple;
+  padding-right: 4px;
+}
+/* now here next row desingn */
+.box-res-2{
+  background-color: rgba(255, 255, 255, 0.952);
+  padding-top: 1rem;
+   padding-bottom: 0.5px;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.box-res-2--ul{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+   margin-left: -1rem;
+  
+}
+.box-res2--list1{
+padding-left: 2rem;
+padding-right: 2rem;
+font-size: 1.3rem;
+}
+span.line-2{
+  border-bottom: solid 3px #1b74e4;
+  top: 20.7rem;
+  width: 110px !important;
+  position: absolute;
+  margin-left: 5px !important;
+  position: absolute;
+
+}
+/* box-3 is not going to display */
+.box-3{
+    display: none;
+}
+.second-box-1{
+    display: none !important;
+}
+.second-box-2{
+    margin-left: 0 !important;
+    width: 100%;
+    margin-top: -12rem;
+  
+}
+
+
+
+.story-icon-box{
+    left: 1.7rem;
+}
+.story-icontext{
+    left: 1.3rem;
+    font-size: 14px;
+    margin-top: 1px;
+}
+.arrow-icon{
+   display: none;
+}
+.wholebox-1{
+  display: none;
+}
+.wholebox-3{
+  display: none;
+}
+.wholebox-2{
+  width: 100%;
+  margin-left: 0 !important;
+}
+
+.card-5 {
+   display: none;
+}
+.card-4 {
+  display: none;
+}
+  
+.box-4con
+{
+  display: none;
+}
+.cards-section{
+  margin-left: 3px !important;
+  width: 100%;
+}
+.card-margin , .card-margin-2 , .card-margin-3 , .card-margin-4{
+   width: 100% !important;
+}
+.card-1{
+  margin-left: 2px;
+}
+.card-2{
+ left: 0.2rem !important;
+}
+.card-3{
+ left: 0.4rem !important;
+}
+.card-body-1{
+  width: 100% !important;
+}
+.content-boxtext2{
+  margin-left: 1rem;
+  margin-top: -2px;
+}
+.list-3box{
+  display: none;
+}
+.wholebox{
+  padding-top: 1rem !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+ul{
+  padding-left: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* here are that elements that we want to display and dispaly none here in mobile responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .j58f7537 {
+  color: #45bd62;
+  width: 20px;
+  height: 20px;
+}
+
+
+ .fxtw5amg {
+  color: #f3425f;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.scb9dxdr {
+  padding-left: 8px;
+}
+.rq0escxv {
+  box-sizing: border-box;
+}
+.qypqp5cg {
+  height: 40px;
+}
+.pvl4gcvk {
+  transition-property: margin-right,opacity,transform;
+}
+.owxd89k7 {
+  border-bottom-left-radius: 50px;
+}
+.oo9gr5id {
+  color: var(--primary-text);
+}
+.oajrlxb2 {
+  -webkit-tap-highlight-color: transparent;
+}
+.n3ddgdk9 {
+  border-bottom-right-radius: 50px;
+}
+.mg4g778l {
+  flex-basis: auto;
+}
+.l9j0dhe7 {
+  position: relative;
+}
+.l60d2q6s {
+  padding-top: 7px;
+}
+.jq4qci2q {
+  font-size: .9375rem;
+}
+.ijkhr0an {
+  transition-duration: var(--fds-duration-extra-extra-short-in);
+}
+.ihxqhq3m {
+  font-family: inherit;
+}
+.hzawbc8m {
+  text-align: left;
+}
+.hwnh5xvq {
+  padding-bottom: 9px;
+}
+.hpfvmrgz {
+  min-width: 0;
+}
+.h2jyy9rg {
+  border-top-right-radius: 50px;
+}
+.g5ia77u1 {
+  background-color: transparent;
+}
+.g5gj957u {
+  flex-shrink: 1;
+}
+.f1sip0of {
+  touch-action: manipulation;
+}
+.dwo3fsh8 {
+  -webkit-appearance: none;
+}
+.dflh9lhu {
+  padding-right: 8px;
+}
+.buofh1pr {
+  flex-grow: 1;
+}
+.br7hx15l {
+  border-top-left-radius: 50px;
+}
+.aj8hi1zk {
+  -webkit-appearance: textfield;
+}
+.r7d6kgcz {
+  border-left: 0;
+}
+.qu0x051f {
+  border-top: 0;
+}
+.esr5mh6w {
+  border-right: 0;
+}
+.e9989ue4 {
+  border-bottom: 0;
+}
+.lzcic4wl {
+  outline: none;
+}
+
+
+.tw6a2znq {
+  padding-left: 12px;
+}
+.sgqwj88q {
+  transition-timing-function: linear;
+}
+.pvl4gcvk {
+  transition-property: margin-right,opacity,transform;
+}
+.j83agx80 {
+  display: flex;
+}
+.ijkhr0an {
+  transition-duration: var(--fds-duration-extra-extra-short-in);
+}
+.hzruof5a {
+  pointer-events: none;
+}
+.g0qnabr5 {
+  white-space: nowrap;
+}
+.bp9cbjyn {
+  align-items: center;
+}
+.l3qrxjdp {
+  transition-property: color,fill,stroke;
+}
+
+.oajrlxb2 {
+  -webkit-tap-highlight-color: transparent;
+}
+.nhd2j8a9 {
+  cursor: pointer;
+}
+.i1ao9s8h {
+  text-align: inherit;
+}
+.abiwlrkh {
+  -webkit-user-select: none;
+}
+.p7hjln8o {
+  list-style: none;
+}
+.esuyzwwr {
+  text-decoration: none;
+}
+.tojvnm2t {
+  align-content: inherit;
+}
+.t1p8iaqh {
+  flex-basis: inherit;
+}
+.qowsmv63 {
+  max-height: inherit;
+}
+.q3lfd5jv {
+  flex-grow: inherit;
+}
+.pk4s997a {
+  flex-shrink: inherit;
+}
+.owwhemhu {
+  max-width: inherit;
+}
+.k5wvi7nf {
+  flex-direction: inherit;
+}
+.iyyx5f41 {
+  width: inherit;
+}
+.dp1hu0rb {
+  min-height: inherit;
+}
+.dhp61c6y {
+  min-width: inherit;
+}
+.cebpdrjk {
+  justify-content: inherit;
+}
+.bipmatt0 {
+  height: inherit;
+}
+.abs2jz4q {
+  align-self: inherit;
+}
+.a8s20v7p {
+  display: inherit;
+}
+.a6sixzi8 {
+  align-items: inherit;
+}
+
+::-webkit-scrollbar {
+  display: block;
+  background: #c1c1c1 !important;
+}
+
+#footer { position: fixed; bottom: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+  font-size: .875rem !important;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+
+
+
+
+
+ 
+
+.small-white {
+
+	border-radius:6px;
+
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+
+	font-weight:bold;
+	padding:8px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.small-white:hover {
+	background:linear-gradient(to bottom, #fafafab7 5%, #fafafab7 100%);
+	background-color:#f6f6f6;
+  color:#666666;
+}
+.small-white:active {
+	position:relative;
+	top:1px;
+}
+ 
+
+
+
+
+
+
+.small-white-2 {
+
+	border-radius:6px;
+
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+
+	font-weight:bold;
+	padding:8px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.small-white-2:hover {
+	background:linear-gradient(to bottom, #fafafab7 5%, #fafafab7 100%);
+	background-color:#f6f6f6;
+  color:#666666;
+}
+.small-white-2:active {
+	position:relative;
+	top:1px;
+}
+ 
+
+
+
+
+
+
+
+
+/* herea are desktop media queris */
+
+/* ----------- Non-Retina Screens ----------- */
+
+
+/* ----------- Retina Screens ----------- */
+@media screen and (max-width: 1440px) 
+ { 
+  
+    
+    .second-box-2{
+      margin-left: -4.5rem;
+    }
+
+    .cards-section{
+      margin-left: 25rem;
+    }
+    
+    .contacts{
+      left: 68rem;
+    }
+
+    .icon-con{
+      left: 14rem;
+    }
+}
+
+
+@media screen and (max-width: 1336) 
+ { 
+  
+    
+    .second-box-2{
+      margin-left: -5.5rem;
+    }
+
+    .cards-section{
+      margin-left: 23rem;
+    }
+    
+    .contacts{
+      left: 66rem;
+    }
+
+    .icon-con{
+      left: 11rem;
+    }
+}
+
+
+
+
+
+
+
+
